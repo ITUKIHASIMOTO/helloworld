@@ -38,4 +38,24 @@ public class OrderProcessorTest {
 		// 8550円 + 送料500円 = 9050円になるはず
 		assertEquals(9050, finalPrice, "プレミアム顧客の大口注文（北海道）の計算が正しくありません");
 	}
+
+	@Test
+	void testPremiumCustomerWithSmallOrderInTokyo() {
+		// プレミアム顧客が東京で3000円の注文を行うケース
+		double finalPrice = processor.calculateFinalPrice(3000, premium2, prefecture1);
+
+		// 3000円 - 10%割引 = 2700円
+		// 2700円 + 送料300円 = 3000円になるはず
+		assertEquals(3000, finalPrice, "通常顧客の小額注文（東京）の計算が正しくありません");
+	}
+	
+	@Test
+	void testRegularCustomerWithLargeOrderInHokkaido() {
+		// 通常顧客が北海道で10000円の注文を行うケース
+		double finalPrice = processor.calculateFinalPrice(10000, premium1, prefecture2);
+
+		// 10000円 - 5%割引 = 9500円
+		// 9500円 + 送料500円 = 10000円になるはず
+		assertEquals(10000, finalPrice, "プレミアム顧客の大口注文（北海道）の計算が正しくありません");
+	}
 }
