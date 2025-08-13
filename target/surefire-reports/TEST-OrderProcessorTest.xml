@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="OrderProcessorTest" time="0.076" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="OrderProcessorTest" time="0.084" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="jdk.extensions.version" value="17.0.15.0"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="MS932"/>
-    <property name="java.class.path" value="C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world\target\test-classes;C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world\target\classes;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\ITUKIHASIMOTO\helloworld\target\test-classes;C:\Users\ITUKIHASIMOTO\helloworld\target\classes;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="com.ibm.vm.bitmode" value="64"/>
@@ -21,9 +21,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="JP"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Semeru\jdk-17.0.15+6\bin\default;C:\Program Files\Semeru\jdk-17.0.15+6\bin"/>
-    <property name="sun.java.command" value="C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire4878833575714972747\surefirebooter-20250812155655508_3.jar C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire4878833575714972747 2025-08-12T15-56-55_360-jvmRun1 surefire-20250812155655508_1tmp surefire_0-20250812155655508_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire15599733298196996652\surefirebooter-20250813153612438_3.jar C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire15599733298196996652 2025-08-13T15-36-12_301-jvmRun1 surefire-20250813153612438_1tmp surefire_0-20250813153612438_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world\target\test-classes;C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world\target\classes;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\ITUKIHASIMOTO\helloworld\target\test-classes;C:\Users\ITUKIHASIMOTO\helloworld\target\classes;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ITUKIHASIMOTO\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ITUKIHASIMOTO"/>
     <property name="user.language" value="ja"/>
@@ -34,7 +34,7 @@
     <property name="openjdk.methodhandles" value="true"/>
     <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world"/>
+    <property name="basedir" value="C:\Users\ITUKIHASIMOTO\helloworld"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -43,7 +43,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.awt.fonts" value=""/>
-    <property name="surefire.real.class.path" value="C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire4878833575714972747\surefirebooter-20250812155655508_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ITUKIHASIMOTO\AppData\Local\Temp\surefire15599733298196996652\surefirebooter-20250813153612438_3.jar"/>
     <property name="com.ibm.oti.shared.enabled" value="false"/>
     <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\Semeru\jdk-17.0.15+6\bin\default;C:\Program Files\Semeru\jdk-17.0.15+6\bin"/>
     <property name="user.script" value=""/>
@@ -64,7 +64,7 @@
     <property name="java.io.tmpdir" value="C:\Users\ITUKIH~1\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.15"/>
     <property name="com.ibm.system.agent.path" value="C:\Program Files\Semeru\jdk-17.0.15+6\bin"/>
-    <property name="user.dir" value="C:\Users\ITUKIHASIMOTO\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\hello-world"/>
+    <property name="user.dir" value="C:\Users\ITUKIHASIMOTO\helloworld"/>
     <property name="os.arch" value="amd64"/>
     <property name="org.eclipse.openj9.jfr.isJFREnabled" value="true"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -83,6 +83,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPremiumCustomerWithLargeOrderInHokkaido" classname="OrderProcessorTest" time="0.046"/>
-  <testcase name="testRegularCustomerWithSmallOrderInTokyo" classname="OrderProcessorTest" time="0.001"/>
+  <testcase name="testPremiumCustomerWithLargeOrderInHokkaido" classname="OrderProcessorTest" time="0.039"/>
+  <testcase name="testPremiumCustomerWithSmallOrderInTokyo" classname="OrderProcessorTest" time="0.001"/>
+  <testcase name="testRegularCustomerWithLargeOrderInHokkaido" classname="OrderProcessorTest" time="0.002"/>
+  <testcase name="testRegularCustomerWithSmallOrderInTokyo" classname="OrderProcessorTest" time="0.0"/>
 </testsuite>
